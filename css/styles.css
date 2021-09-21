@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(177, 177, 177);
+}
+/*  --------------nAVbAR--------------------- */
+#navbar{
+    background-color: rgb(8, 6, 6);
+    padding-bottom: 2vh;
+    position: fixed;
+    top: 1px;
+    z-index: 100;
+    height: 100vh;
+}
+#avatar img{
+    width: 75%;
+    margin: 3vh 0 3vh 5vh;
+}  
+.nav-item p{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    padding-top: 5vh;
+}
+.nav-item a{
+    display: flex; 
+    justify-content: flex-end; 
+}
+#cv a{
+    display: flex;
+    justify-content: center;
+}
+#mail a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2vh;
+}
+/* ----------------presentation------------ */
+#text p{
+    background-color: white;
+    border:black solid 2px;
+    color: black;
+    padding-left: 3vh;
+    padding-right: 2vh;
+    text-align: justify;
+}
+#text{
+   
+    padding-top: 40vh;
+    padding-left:15vh;
+}
+#photo img{
+    padding-top: 15vh;
+    border-radius: 50%;
+}
+
+
+/* ------------- competences--------------- */
+
