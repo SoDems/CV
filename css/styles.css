@@ -2,26 +2,26 @@ body{
     background-color: rgb(177, 177, 177);
 }
 /*  --------------nAVbAR--------------------- */
-#navbar{
+#barrenavigation{
     background-color: rgb(8, 6, 6);
-    padding-bottom: 2vh;
     position: fixed;
     top: 1px;
     z-index: 100;
     height: 100vh;
 }
 #avatar img{
-    width: 75%;
-    margin: 3vh 0 3vh 5vh;
+    width: 85%;
+    margin: 20px 0 30px 20px;
 }  
 .nav-item p{
     color: rgb(177, 177, 177);
     text-align: center;
-    padding-top: 5vh;
+    padding-top: 20px;
 }
 .nav-item a{
     display: flex; 
     justify-content: flex-end; 
+
 }
 #cv a{
     display: flex;
@@ -30,27 +30,77 @@ body{
 #mail a{
     display: flex;
     justify-content: center;
-    padding-bottom: 2vh;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
 /* ----------------presentation------------ */
 #text p{
     background-color: white;
     border:black solid 2px;
     color: black;
-    padding-left: 3vh;
-    padding-right: 2vh;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: justify;
+    margin: 250px 0 0 100px;
 }
 #text{
    
-    padding-top: 40vh;
-    padding-left:15vh;
+    padding-top: 40px;
+    padding-left:15px;
 }
 #photo img{
-    padding-top: 15vh;
+    margin-top: 100px;
+    padding-top: 75px;
     border-radius: 50%;
+    width: 60%;
 }
 
 
 /* ------------- competences--------------- */
+h1{
+    text-align: center;
+    margin: 150px 0 70px;
+   
+}
+.progress{
+    margin: 5px 100px 0 250px;
+}
+/* -----------------portfolio ----------------- */
+@media(max-width: 780px){
+    /*  --------------nAVbAR--------------------- */
+#navbar{
+    background-color: rgb(8, 6, 6);
+    position: fixed;
+    top: 1px;
+    z-index: 100;
+    height: 100vh;
+    width: 100px;
+}
+#avatar img{
+    width: 85%;
+    margin: 20px 0 30px 20px;
+}  
+.nav-item p{
+    color: rgb(177, 177, 177);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 10px;
+}
+.nav-item a{
+    display: flex; 
+    justify-content: flex-end; 
+    font-size: 5px;
 
+}
+#cv a{
+    display: flex;
+    justify-content: center;
+}
+#mail a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+}
