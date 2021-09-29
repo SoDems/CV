@@ -77,11 +77,32 @@ body{
     text-align: center;
     margin: 150px 0 70px; 
 }
+#experience .row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
 #Lafoirfouille img{
     width: 100%;
     height: auto;
 }
-#conge img{
+#avs img{
+    width: 100%;
+    height: auto;
+}
+#planet img{
+    width: 100%;
+    height: auto;
+}
+#zigo img{
+    width: 100%;
+    height: auto; 
+}
+#multiaccueil img{
+    width: 100%;
+    height: auto;
+}
+#interimaire img{
     width: 100%;
     height: auto;
 }
