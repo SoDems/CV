@@ -42,8 +42,7 @@ body{
     padding-right: 10px;
     text-align: justify;
     margin: 300px 0 0 100px;
-    font-size: 17px;
-    
+    font-size: 17px; 
 }
 #text{
    
@@ -56,8 +55,6 @@ body{
     border-radius: 50%;
     width: 80%;
 }
-
-
 /* ------------- competences--------------- */
 #competence h1{
     text-align: center;
@@ -65,13 +62,12 @@ body{
 }
 .progress{
     width: 500px;
-
-
 }
- /* #competence{
-    display: flex;
-    justify-content: center;
-} */
+ /* -------------------------PORTFOLIO-------------------------------------- */
+ #portfolio{
+    text-align: center;
+    margin: 150px 0 70px;
+ }
 /* --------------------------EXPERIENCE------------------------------------- */
 #experience h1{
     text-align: center;
@@ -79,13 +75,14 @@ body{
 }
 #experience .row{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     margin-bottom: 40px;
 }
 #Lafoirfouille img{
     width: 100%;
     height: auto;
 }
+
 #avs img{
     width: 100%;
     height: auto;
@@ -106,8 +103,34 @@ body{
     width: 100%;
     height: auto;
 }
+h4{
+    font-size: 10px;
+}
+.slideinright{
+    animation: slide 7s ease-in; 
+}
+@keyframe  slide{
+    0%{
+       transform: skewX(58deg) translateX(-500px);
+    }
+    60%{
+        transform: translateX(0px);
+    }
+    62%{
+        transform: skewX(0deg) translateX(30px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+
+
 /* --------------------------Media query------------------------------------ */
 @media(max-width: 1200px){
+    #barrenavigation{
+        width: 20%;
+    }
     #avatar img{
         width: 85%;
         margin: 17px 0 25px 8px;
@@ -134,6 +157,7 @@ body{
 @media(max-width: 990px){
     #barrenavigation{
         width: 25%;
+        height: 75px;
     }
     #avatar img{
         width: 75%;
@@ -187,7 +211,7 @@ body{
 }
 @media(max-width: 520px){
     #barrenavigation{
-        width:75%;
+        width:25%;
     }
     #avatar img{
         width: 70%;
