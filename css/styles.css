@@ -1,3 +1,6 @@
+.checked{
+    color:orange
+}
 body{
     background-color: rgb(177, 177, 177);
 }
@@ -15,7 +18,7 @@ body{
     border-radius: 50%;
 }  
 .nav-item p{
-    color: rgb(177, 177, 177);
+    color: rgb(153, 10, 10);
     text-align: center;
     padding-top: 20px;
     font-size: 15px;
@@ -23,7 +26,24 @@ body{
 .nav-item a{
     display: flex; 
     justify-content: flex-end; 
-
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(153, 10, 10);
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: rgb(153, 10, 10);
+}
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: rgb(153, 10, 10);
 }
 #cv a{
     display: flex;
@@ -37,6 +57,28 @@ body{
     padding-top: 10px;
 }
 /* ----------------presentation------------ */
+#presentation{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 10%;
+    margin-bottom: 50px;
+}
+#bureau img{
+    width: 70%;
+}
+#bureau{
+    display: flex;
+    justify-content: center;
+}
+/* -----------------competence -------------- */
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+h2{
+   font-size: 20px; 
+}
 
 
  /* -------------------------PORTFOLIO-------------------------------------- */
@@ -45,43 +87,173 @@ body{
     margin: 150px 0 70px;
  }
 /* --------------------------EXPERIENCE------------------------------------- */
-#experience h1{
-    text-align: center;
-    margin: 150px 0 70px; 
+
+  
+  /* ================ The Timeline ================ */
+  
+.timeline {
+    position: relative;
+    width: 660px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 1em 0;
+    list-style-type: none;
 }
-#experience .row{
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 40px;
+  
+.timeline:before {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: ' ';
+    display: block;
+    width: 6px;
+    height: 100%;
+    margin-left: -3px;
+    background: linear-gradient(to bottom, rgba(80,80,80,0) 0%, rgb(80,80,80) 8%, rgb(80,80,80) 92%, rgba(80,80,80,0) 100%);
+    z-index: 5;
+} 
+.timeline li {
+    padding: 1px 0;
+ }
+.timeline li:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.direction-l {
+    position: relative;
+    width: 300px;
+    float: left;
+    text-align: right;
+ }
+  
+.direction-r {
+    position: relative;
+    width: 300px;
+    float: right;
+}
+.flag {
+    position: relative;
+    display: inline;
+    background: rgb(248,248,248);
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: left;
+} 
+.direction-l .flag:before,
+.direction-r .flag:before {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    content: ' ';
+    display: block;
+    width: 12px;
+    height: 12px;
+    margin-top: -10px;
+    background: #fff;
+    border-radius: 10px;
+    border: 4px solid rgb(153, 10, 10);
+    z-index: 10;
+}
+.direction-r .flag:before {
+    left: -40px;
+}
+  /* --------petite fleche blanche */
+.direction-l .flag:after {
+    content: "";
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-left-color: rgb(248,248,248);
+    border-width: 8px;
+    pointer-events: none;
+ }
+.direction-r .flag:after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    height: 0;
+    width: 0;
+    margin-top: -8px;
+    border: solid transparent;
+    border-right-color: rgb(248,248,248);
+    border-width: 8px;
+    pointer-events: none;
 }
 #Lafoirfouille img{
-    width: 100%;
-    height: auto;
+     width: 100%; 
 }
-
+#Lafoirfouille h4{
+    font-size: 10px;
+    color: white;
+}
+#Lafoirfouille{
+     width: 60%;
+     height: auto;
+}
 #avs img{
-    width: 100%;
-    height: auto;
+ width: 100%; 
 }
-#planet img{
-    width: 100%;
-    height: auto;
+#avs h4{
+    font-size: 10px;
+    color: white;
 }
-#zigo img{
-    width: 100%;
-    height: auto; 
-}
-#multiaccueil img{
-    width: 100%;
+#avs{
+    width: 60%;
     height: auto;
 }
 #interimaire img{
-    width: 100%;
+    width: 100%; 
+}
+#interimaire h4{
+    font-size: 10px;
+    color: white;
+}
+#interimaire{
+    width: 60%;
     height: auto;
 }
-h4{
-    font-size: 10px;
+#planet img{
+    width: 100%; 
 }
+#planet h4{
+    font-size: 10px;
+    color: white;
+}
+#planet{
+    width: 60%;
+    height: auto;
+}
+#zigo img{
+    width: 100%; 
+}
+#zigo h4{
+    font-size: 10px;
+    color: white;
+}
+#zigo{
+    width: 60%;
+    height: auto;
+}
+#multiaccueil img{
+    width: 100%; 
+}
+#multiaccueil h4{
+    font-size: 10px;
+    color: white;
+}
+#multiaccueil{
+    width: 60%;
+    height: auto;
+}
+  
 .slideinright{
     animation: slide 5s ease-in; 
 }
@@ -137,6 +309,18 @@ h4{
      100%{
          transform: skew(0deg);
      }
+}
+/* --------------DIPLOME------------ */
+#diplome img{
+    width: 80%;
+    
+}
+#diplome{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    margin-top: 100px;
 }
 
 
