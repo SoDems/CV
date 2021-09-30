@@ -72,16 +72,36 @@ body{
     justify-content: center;
 }
 /* -----------------competence -------------- */
-h1{
+.row h1{
     font-size: 40px;
     text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
 }
-h2{
+#competence h2{
    font-size: 20px; 
+   text-align: center;
 }
-#etoile{
-    display: flex;
+.etoile{
+display: flex;
+justify-content: center;
 }
+#atouts h2{
+    font-size: 20px; 
+    text-align: center;
+}
+.etoile p{
+    padding-left: 20px;
+}
+.etoile i{
+    padding-left: 5px;
+}
+
+
+
+
+
+
 
 
  /* -------------------------PORTFOLIO-------------------------------------- */
