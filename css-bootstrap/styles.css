@@ -1,0 +1,457 @@
+:root{
+    --cl-fond: rgb(133, 133, 135);
+    --cl-hover:  #74cae3;
+    --cl-text:  white;
+     
+}
+body{
+    background-color: var(--cl-fond)
+    
+}
+#barrenavigation{
+    background-color: #17191B;
+    position: fixed;
+    top: 1px;
+    z-index: 100;
+    height: 100%;
+}
+#avatar img{
+    width: 85%;
+    margin: 20px 0 30px 20px;
+    border-radius: 50%;
+}  
+.nav-item p{
+    color: var(--cl-hover);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+}
+.nav-item a{
+    display: flex; 
+    justify-content: flex-end; 
+}
+.nav-link{
+    color: var(--cl-text);
+}
+.nav-link:hover{
+    color: var(--cl-hover);
+}
+.link{
+    color: var(--cl-text);
+}
+.link:hover{
+    color: var(--cl-hover);
+}
+.nav-item a{
+    color: var(--cl-text);
+}
+.nav-item a:hover{
+    color: var(--cl-hover);
+}
+#cv a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 29px;
+}
+#mail a{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#offcanvas button{
+    width: 15%;
+    position: absolute;
+    top: 12px;
+    margin-left: 7px;
+ }
+
+
+/* --------------------------parallax---------------- */
+#parallax, #parallax2, #parallax3, #parallax4, #parallax5, #parallax6{
+    position: relative;
+    /* opacity: 0.65; */
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: none;
+}
+#parallax img{
+  opacity: 40%;
+  width: 100%;
+
+}
+.caption{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: black;
+}
+span.border{
+    /* background-color: var(--cl-fond); */
+    color: var(--cl-text);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+    
+}
+span.border{
+background-attachment: sticky;
+}
+#text{
+    color: var(--cl-text);
+    background-color: var(--cl-fond);
+    text-align: center;
+    text-align: justify;
+    padding: 50px;
+    position : sticky ;
+}
+#pt-html{
+    
+    width: 2px ;
+}
+#text a{
+    color :var(--cl-text);
+
+}
+#parallax2 img{
+    opacity: 40%;
+    width: 100%;
+}
+.caption2{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: black;
+}
+.caption2 span.border{
+    background-color: transparent;
+    color: var(--cl-text);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+#competence{
+    color: var(--cl-text);
+    background-color: var(--cl-fond);
+    text-align: center;
+    text-align: justify;
+    
+}
+#atouts{
+    background-color: var(--cl-fond);
+}
+
+#competence h2{
+    font-size: 20px; 
+    text-align: left;
+ }
+ #text2{
+    color: var(--cl-text);
+    background-color: var(--cl-fond);
+    text-align: center;
+    text-align: justify;
+    
+}
+ .etoile{
+     display: flex;
+     justify-content: flex-start;
+ }
+ #atouts h2{
+     font-size: 20px; 
+     text-align: center;
+ }
+ .etoile p{
+     padding-right: 40px;
+     padding-left: 100px;
+ }
+ .etoile i{
+     padding-left: 5px;
+ }
+ .caption3{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: var(--cl-fond);
+}
+/* .caption3 span.border{
+    background-color: var(--cl-fond);
+    color: var(--cl-text);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+} */
+#text3{
+    color: var(--cl-text);
+    background-color: var(--cl-fond);
+    text-align: center;
+    text-align: justify;;
+}
+#parallax3 img{
+    opacity: 40%;
+    width: 100%;
+  }
+#parallax4 img{
+    opacity: 40%;
+    width: 100%;
+}
+.caption4{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: var(--cl-text);
+}
+.caption4 span.border{
+    background-color: transparent;
+    color: var(--cl-text);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+#parallax5 img{
+    opacity: 40%;
+    width: 100%;
+}
+.caption5{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: var(--cl-fond);
+}
+.caption5 span.border{
+    background-color: transparent;
+    color: var(--cl-text);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+#parallax6 img{
+    opacity: 40%;
+    width: 100%;
+}
+.caption6{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width:100%;
+    text-align: center;
+    color: var(--cl-fond);
+}
+.caption6 span.border{
+    background-color: transparent;
+    color: var(--cl-text);
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+/* ----------CENTRE D INTERETS */
+#art img{
+    width: 100%;
+}
+#musique img{
+    width: 100%;
+}
+#voyage img{
+    width: 100%;
+}
+#loisir{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+/* -----------TIMELINE------------------ */
+.timeline{
+    margin-top:20px;
+    position:relative;
+    
+  }
+  
+  .timeline:before{
+    position:absolute;
+    content:'';
+    width:4px;
+    height:calc(100% + 10px);
+    background: rgb(138,145,150);
+    background: -moz-linear-gradient(left, rgba(138,145,150,1) 0%, rgba(122,130,136,1) 60%, rgba(98,105,109,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(98,105,109,1) 100%);
+    background: linear-gradient(to right, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(98,105,109,1) 100%);
+    
+    left:250px;
+    top:5px;
+    border-radius:4px;
+  }
+  
+  
+  /* petites barre qui relie la date */
+  .timeline-section{
+    padding-left:55px;
+    display:block;
+    position:relative;
+    margin-bottom:30px;
+  }
+  /* date en bleue */
+  .timeline-date{
+    margin-bottom:15px;
+    padding:2px 15px;
+    background:linear-gradient(#74cae3, #5bc0de 60%, #4ab9db);
+    position:relative;
+    display:inline-block;
+    border-radius:20px;
+    border:1px solid #17191B;
+    color:#fff;
+    text-shadow:1px 1px 1px rgba(0,0,0,0.3);
+    left: 250px
+  }
+/* barre qui relie la date  */
+  .timeline-section:before{
+    content:'';
+    position:absolute;
+    width:60px;
+    height:3px;
+    background: linear-gradient(#74cae3, #5bc0de 60%, #4ab9db);
+    top:12px;
+    left:250px;
+  }
+  /* rond sur la timeline */
+  .timeline-section:after{
+    content:'';
+    position:absolute;
+    width:10px;
+    height:10px;
+    background:linear-gradient(to bottom, rgba(138,145,150,1) 0%,rgba(122,130,136,1) 60%,rgba(112,120,125,1) 100%);
+    top:7px;
+    left:247px;
+    border:1px solid #17191B;
+    border-radius:100%;
+  }
+  
+  .timeline-section .col-sm-4{
+    margin-bottom:15px;
+  }
+  /* boite noire et grise */
+  .timeline-box{
+    position:relative;
+    left: 250px;
+    background-color:#444950;
+    border-radius:15px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border:1px solid #17191B;
+    /* transition:all 0.3s ease; */
+    overflow:hidden;
+  }
+  .box-title{
+    padding:5px 15px;
+    border-bottom: 1px solid #17191B;
+  }
+  .box-content{
+    padding:5px 15px;
+    background-color:#17191B;
+  }
+  .box-content strong{
+    color:#666;
+    font-style:italic;
+    margin-right:5px;
+  }
+  
+  .box-item{
+    margin-bottom:5px;
+  }
+  
+  .box-footer{
+    height: 25px;
+    border-top: 1px solid #17191B;
+    background-color:#444950;
+  }
+  .box-un, .box-deux{
+    position:relative;
+    background-color:#444950;
+    border-radius:15px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border:1px solid #17191B;
+    /* transition:all 0.3s ease; */
+    overflow:hidden;
+    width: 700px;
+    left: 300px;
+    margin: 30px 0 30px 0;
+  }
+  
+
+  .title{
+    padding:5px 15px;
+    border-bottom: 1px solid #17191B;
+  }
+  .content{
+    padding:5px 15px;
+    background-color:#17191B;
+  }
+  .content strong{
+    color:#666;
+    font-style:italic;
+    margin-right:5px;
+  }
+  
+  .item{
+    margin-bottom:5px;
+  }
+  
+  .footer{
+    height: 25px;
+    border-top: 1px solid #17191B;
+    background-color:#444950;
+  }
+  #bouton{
+      display: flex;
+      justify-content: space-around;
+  }
+  .etoile #pt-html{
+      left: 6500px;
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 990px){
+    #barrenavigation{
+      display : none;
+}
+
+#offcanvas button{
+   width: 15%;
+   position: absolute;
+   top: 10px;
+   margin-left: 7px;
+}
+#offcanvas img{
+   width :50%;
+}
+#offcanvasScrolling{
+    width: 25%;
+    background-color: #17191B;
+    
+}
+
+
+}
