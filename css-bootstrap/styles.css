@@ -2,6 +2,7 @@
     --cl-fond: rgb(133, 133, 135);
     --cl-hover:  #74cae3;
     --cl-text:  white;
+    --cl-card:#17191B;
      
 }
 body{
@@ -421,6 +422,32 @@ background-attachment: sticky;
   .etoile #pt-html{
       left: 6500px;
   }
+  #card1, #card2, #card3,  #card4,  #card5,  #card6{
+    background-image:url(voyage.png) ;
+    border-radius:15px;
+    border-top-left-radius:0px;
+    border-bottom-right-radius:0px;
+    border:1px solid #17191B;
+    overflow:hidden;
+    width: 300px;
+    
+   
+    }
+    #card{
+        display:flex;
+        justify-content: space-around;
+    }
+    h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    #card p{
+        font-size:15px;
+        text-align: center;
+    }
+    
+
   
   
 
